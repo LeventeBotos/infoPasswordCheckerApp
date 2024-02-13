@@ -31,3 +31,23 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.gradient {
+  background: linear-gradient(to bottom right,
+  #31d0fc , #2cd782
+  ) fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradientbg {
+  background: linear-gradient(to bottom right,
+  #31d0fc , #2cd782
+
+  ) fixed;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
